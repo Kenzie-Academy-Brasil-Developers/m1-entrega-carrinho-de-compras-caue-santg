@@ -2,16 +2,22 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Balsamiq Sans';
+    
 }
-main {
+header {
+    font-family: 'Balsamiq Sans', cursive;
+    
     width: 400px;
-    height: 550px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     align-items:center;
     background-color: rgb(255, 255, 255);
 }
 .cabecalho{
+    font-family: 'Balsamiq Sans';
+
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -30,6 +36,7 @@ ul{
    
 }
 
+
 li{
     width:300px;
     flex-direction: row;
@@ -37,7 +44,11 @@ li{
     padding: 0px 40px 0px 0px;
     display: flex;
 }
+section{
 
+display: flex;
+flex-direction: column-reverse;
+}
 .divSoma{
     display: flex;
     width: 300px;
@@ -51,9 +62,17 @@ li{
 }
 
 .btnComprar{
+    font-family: 'Balsamiq Sans', cursive;
+
     color: white;
     width: 340px;
     height: 40px;
     background-color: rgb(102, 175, 137);
     border-radius: 6px;
-    border: 2px solid  white;}
+    border: 2px solid  white;
+}
+
+    .btnComprar:hover{
+        border: 2px solid rgba(222, 184, 135, 0.749);
+        background-color: rgb(8, 209, 105);
+    }
